@@ -27,6 +27,6 @@ body {
 @media screen and (max-width: 1370px) {
   .text-div {
     margin-top: -125px;
-    font-size: medium;
+    font-size: x-small;
   }
 }
