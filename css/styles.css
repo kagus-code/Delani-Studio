@@ -5,29 +5,23 @@ body {
   width: 100%;
   font-family: "Poppins", sans-serif;
 }
-.carousel-caption {
-  position: absolute;
-  top: 32%;
-  bottom: 50%;
-}
-#mouse {
-  position: absolute;
-  top: 600px;
-}
 .container {
   text-align: center;
 }
-.text-div {
+.text-div1 {
+  text-align: center;
+  z-index: 1;
+  color: white;
+  margin-top: -650px;
+  margin-left: 700px;
+}
+#mouse {
+  top: 100%;
+}
+.text-div2 {
   text-align: center;
   z-index: 1;
   color: white;
   margin-top: -350px;
-  margin-left: 425px;
-}
-
-@media screen and (max-width: 1370px) {
-  .text-div {
-    margin-top: -125px;
-    font-size: x-small;
-  }
+  margin-left: 450px;
 }
