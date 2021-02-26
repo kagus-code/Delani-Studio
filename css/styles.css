@@ -14,3 +14,6 @@ body {
   position: absolute;
   top: 650px;
 }
+.container {
+  text-align: center;
+}
