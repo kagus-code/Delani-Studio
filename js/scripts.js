@@ -12,9 +12,7 @@ $(document).ready(function() {
     $(".click-hidden3").toggle();
   });
  
-  $( 'img' ).tooltip({
-    track:true
-  });
+  $( 'img' ).tooltip();
 
 
 

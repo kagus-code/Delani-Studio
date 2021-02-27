@@ -41,3 +41,16 @@ body {
 .clickable:hover {
   text-decoration: underline;
 }
+#ui {
+  padding: 30px;
+  color: white;
+  margin-left: 30%;
+}
+#input-field {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
