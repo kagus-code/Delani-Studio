@@ -25,10 +25,14 @@ body {
   margin-top: -350px;
   margin-left: 450px;
 }
-.click-show {
+.click-show1,
+.click-show2,
+.click-show3 {
   display: none;
 }
-.clickable {
+.clickable1,
+.clickable2,
+.clickable3 {
   cursor: pointer;
 }
 .clickable:hover {
