@@ -11,5 +11,17 @@ $(document).ready(function() {
     $(".click-show3").toggle();
     $(".click-hidden3").toggle();
   });
-  
+ 
+  $( 'img' ).tooltip({
+    track:true
+  });
+
+
+
+
+
+
+
+
+
 });
