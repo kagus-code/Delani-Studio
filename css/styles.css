@@ -54,3 +54,6 @@ body {
 ::placeholder {
   color: white;
 }
+#icon {
+  padding-left: 25px;
+}
