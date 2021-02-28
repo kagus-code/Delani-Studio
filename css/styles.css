@@ -105,3 +105,19 @@ body {
     font-size: medium;
   }
 }
+@media screen and (max-width: 660px) {
+  #project-man {
+    max-width: 70%;
+  }
+  #development {
+    max-width: 70%;
+  }
+  #project-man h2 {
+    font-size: large;
+    font-weight: bold;
+  }
+  #development h2 {
+    font-size: large;
+    font-weight: bold;
+  }
+}
