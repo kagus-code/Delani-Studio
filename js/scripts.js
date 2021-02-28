@@ -15,15 +15,13 @@ $(document).ready(function() {
   $( 'img' ).tooltip();
 
 
-
-  $("form").on('keypress',function(e) {
-    if(e.which == 13) {
-      $("form").submit(function(event) {
-        
+  $("form").submit(function(event) {
+    var customer = $("input#name").val();
+    alert(customer + "   " + 'We have received your message!! Thank you for reaching out to us.')
+    event.preventDefault();
       });
 
-    }
-});
+    
 
 
 });

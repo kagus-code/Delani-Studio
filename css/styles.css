@@ -46,7 +46,7 @@ body {
   color: white;
   margin-left: 30%;
 }
-#input-field {
+.input-field {
   background-color: transparent;
   border-color: white;
   color: white;
