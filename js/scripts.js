@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $(".clickable1").click(function() {
     $(".click-show1").toggle();
@@ -13,15 +14,16 @@ $(document).ready(function() {
   });
   $( 'img' ).tooltip();
 
-  
-  
 
 
+  $("form").on('keypress',function(e) {
+    if(e.which == 13) {
+      $("form").submit(function(event) {
+        
+      });
 
-
-
-
-
+    }
+});
 
 
 });
