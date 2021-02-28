@@ -13,11 +13,10 @@ $(document).ready(function() {
   });
   $( 'img' ).tooltip();
 
-  $(document).on("keypress", ".input-field", function(e){
-    if(e.which == 13){
-        alert("Your Message has been recieved");
-    }
-});
+  
+  
+
+
 
 
 
