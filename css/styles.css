@@ -57,3 +57,51 @@ body {
 #icon {
   padding-left: 25px;
 }
+@media screen and (max-width: 1175px) {
+  #mouse {
+    display: none;
+  }
+  .mobile-br {
+    display: none;
+  }
+  .text-div1 h1 {
+    font-size: medium;
+  }
+  .text-div1 {
+    font-size: medium;
+    margin-top: -230px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1365px) {
+  .text-div2 h1 {
+    font-size: x-small;
+  }
+  .text-div2 {
+    font-size: x-small;
+    margin-top: -100px;
+    margin-left: -5px;
+    opacity: 0.9;
+  }
+  .text-div2 p {
+    display: inline;
+  }
+}
+@media screen and (max-width: 1012px) {
+  #email,
+  #name {
+    max-width: 70%;
+    margin-left: -300px;
+  }
+  #ui textarea {
+    max-width: 50%;
+    margin-left: -300px;
+  }
+  #submitmsg {
+    margin-left: -300px;
+  }
+
+  #ui h2 {
+    font-size: medium;
+  }
+}

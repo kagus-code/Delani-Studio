@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   $("form").submit(function(event) {
     var customer = $("input#name").val();
-    alert(customer + "   " + 'We have received your message!! Thank you for reaching out to us.')
+    alert(customer + " " + 'We have received your message!! Thank you for reaching out to us.')
     event.preventDefault();
       });
 
