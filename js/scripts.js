@@ -1,4 +1,4 @@
-
+//JQuery front-End functionality
 $(document).ready(function() {
   $(".clickable1").click(function() {
     $(".click-show1").toggle();
@@ -12,11 +12,24 @@ $(document).ready(function() {
     $(".click-show3").toggle();
     $(".click-hidden3").toggle();
   });
-  $( 'img' ).tooltip();
+  $( 'img' ).tooltip({  
+  });
   $("form").submit(function(event) {
     var customer = $("input#name").val();
     alert(customer + " " + 'We have received your message!! Thank you for reaching out to us.')
-    $('form')[0].reset();
-    event.preventDefault();
+    var frm = document.getElementsByName('mc-embedded-subscribe-form')[0];
+    frm.submit();
+    document.getElementById('name').value=''; 
+    document.getElementById('email').value=''; 
+    document.getElementById('mce-MMERGE6').value='';
       });
+
+     
 });
+
+
+
+/*
+
+event.preventDefault();
+$('form')[0].reset();  */
